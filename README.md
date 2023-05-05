@@ -9,6 +9,10 @@ Very simple sample of QA engine using vector store.
 - Query vector store with embeddings calculated from user input texts.
 - Return answer stored with the embedding.
 
+# How to use
+- Run `learn.py` and check the ID
+- Change the value of id in `cui.py` and run it.
+
 # Source QA
 I'm using a webpage of a hotel QA.
 https://www.southerntower.co.jp/rooms/faq/

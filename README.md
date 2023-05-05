@@ -9,5 +9,9 @@ Very simple sample of QA engine using vector store.
 - Query vector store with embeddings calculated from user input texts.
 - Return answer stored with the embedding.
 
+# Source QA
+I'm using a webpage of a hotel QA.
+https://www.southerntower.co.jp/rooms/faq/
+
 # Problem
 For the similar questions, like "when is the checkin time?" and "when is the checkout time?" Vector store does not return expected results. For instance, user is asking "checkout time" but vector store returns the embeddings of "What is the checkout time" as the closest vector.
